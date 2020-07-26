@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Preview
+
+![App Preview](./preview.png)
+
+[Click Here for DEMO] (https://vigilant-montalcini-9860dd.netlify.app/)
 
 ## Available Scripts
 
