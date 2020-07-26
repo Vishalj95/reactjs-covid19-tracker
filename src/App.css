@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f6fa;
+    color: #58547e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-mono {
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__dropdown {
+    background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.app__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__header h1 {
+    display: flex;
+    align-items: center;
+}
+.app__header h1 img {
+    margin-right: 6px;
+}
+
+.app__left {
+    flex: 0.9;
+}
+
+.app__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app__right .app__right_grapbox {
+    margin-top: 32px;
+}
+.app__right_grap {
+    margin-top: 15px;
+}
+
+/* .app__right .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.app__graph {
+    flex-grow: 1;
+} */
+
+.app_stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    .app {
+        flex-direction: column;
+    }
 }

@@ -1,0 +1,57 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 15px;
+}
+
+.infoBox__bg--red {
+    background-image: url('../images/corona-icon-red.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+.infoBox__bg--green {
+    background-image: url('../images/corona-icon-green.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.infoBox--active {
+    border-top: 4px solid #28a745;
+}
+
+.infoBox--red {
+    border-color: #ff073a;
+    background-color: rgba(255, 7, 58, 0.125) !important;
+}
+.infoBox--red .infoBox__title {
+    color: #ff073a;
+}
+.infoBox--green {
+    background-color: rgba(40,167,69,.12549) !important;
+}
+.infoBox--green .infoBox__title {
+    color: #28a745;
+}
+
+.infoBox__cases {
+    color: #ff073a;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.infoBox__cases--green {
+    color: green;
+}
+
+.infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
