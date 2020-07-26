@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![App Preview](./preview.png)
 
-[Click Here for DEMO] (https://reactjs-covid19-tracker-app.netlify.app/)
+[Click Here for DEMO](https://reactjs-covid19-tracker-app.netlify.app/)
 
 ## Available Scripts
 
